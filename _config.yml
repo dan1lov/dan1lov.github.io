@@ -1,0 +1,26 @@
+title: Vladimir Danilov — web-developer
+email: danilov@vlinc.ru
+description: >-
+  todo: write description for site
+
+baseurl: ""
+url: "https://danilov.pw"
+github_username: dan1lov
+
+# Build settings
+github: [metadata]
+
+remote_theme: dan1lov/jekyll-danilov-blog
+plugins:
+  - jekyll-remote-theme
+
+remote-theme:
+
+include:
+  - _pages
+
+header_pages:
+  - index.md
+  - _pages/projects.md
+  - _pages/blog.md
+  - _pages/contacts.md
